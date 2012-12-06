@@ -15,11 +15,14 @@ There are several CPAN modules that should be installed to be able to run the ap
     LWP::Simple
     JSON
     Wx 
+    Browser::Open
 
 To know what modules are not installed try to run the application:
+
     perl nozbe_tasks_filter.pl
 
 To install those modules you have to execute:
+
     sudo perl -MCPAN -e shell
 
     cpan[1]> install ModuleName:Here
@@ -28,10 +31,11 @@ To install those modules you have to execute:
 If you are using Mac, more probably you will need XCode (free, today is free:)) and 
 download the "Command Line Tools", some help here:
 (https://developer.apple.com/xcode/)
- XCode -> Preferences...
- Downloads (section on the top)
- Components
- Command Line Tools [install button]
+
+    XCode -> Preferences...
+    Downloads (section on the top)
+    Components
+    Command Line Tools [install button]
 
 
 Configuration
